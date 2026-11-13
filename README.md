@@ -9,7 +9,6 @@ NewsLens is an intelligent news analysis application that combines Machine Learn
 - **Logistic Regression:** Performs multiclass news classification.
 - **Semantic Embeddings:** Uses Sentence Transformers (`all-MiniLM-L6-v2`) to generate contextual representations of news articles.
 - **K-Means Clustering:** Groups contextually similar news articles.
-- **FAISS Similarity Search:** Retrieves semantically relevant news articles efficiently.
 - **Interactive Dashboard:** Provides real-time news classification, prediction confidence, semantic search and news analytics.
 
 ## Dataset
@@ -26,7 +25,6 @@ NewsLens is an intelligent news analysis application that combines Machine Learn
 - **NLP:** TF-IDF, Sentence Transformers
 - **Classification:** Logistic Regression
 - **Clustering:** K-Means
-- **Similarity Search:** FAISS
 - **Dashboard:** Streamlit
 - **Data Processing:** Pandas, NumPy
 
